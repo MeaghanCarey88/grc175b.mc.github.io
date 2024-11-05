@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-size: cover;
+font-family: roboto slab;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    background-color: #ffffff;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #99CCCC;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    padding: 0;
+}
+
+/* NAVIGATION BAR */ 
+.nav {
+    width: 100%;
+    background-color: #99cccc;
+    line-height: 20px;
+    float: left; 
+    
+}
+
+.nav a {
+    display: block;
+    color: #99CCCC;
+    text-align: center;
+    padding: 15px 15px; 
+    text-decoration: none;
+}
+
+.nav ul {
+    float: center;
+    list-style: none;
+    position: relative;
+    padding: 20px;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.nav ul li a {
+    display: block;
+    font-family: roboto slab semibold;
+    color: #339999;
+    font-size: 34px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.nav img {
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 10px;
+    background-color: #99CCCC;
+    float: left;
+}
+
+/* HEADER ICONS */
+.header-icons div img{
+    float: right;
+    width: 42px;
+    line-height: 42px;
+    margin-top: -27px;
+}
+
+/* ---------INDEX PAGE---------- */
+
+/* SLIDER */
+.slider_image > div > img {
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+/* BEST SELLERS TITLE */
+.best-sellers> div {
+    color:#339999;
+    text-align: center;
+    font-size: 60pt;
+    font-family: roboto slab;
+    background-color: #99CCCC;
+}
+
+/* ACTUAL BEST SELLERS */
+.flex-container {
+    display: flex;
+    background-color: #99CCCC;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container> div {
+    background-color: #FFFFFF;
+    color: #003333;
+    width: 900px;
+    text-align: center;
+    line-height: 455px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.flex-container> div> div {
+    width: 368px;
+    line-height: 440px;
+}
+
+.flex-container> div> div> img {
+    flex: 25%;
+    padding: 0px 0px 0px 0px;
+   text-align: center;
+    margin-right: -16px;
+}
+
+.seller-text> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
+
+.shopnow-1 {
+    margin-left: 90px;
+    margin-right: -90px;
+    margin-top: -85px;
+    margin-bottom: 85px;
+}
+
+.shopnow-1> div{
+    font-size: 30pt;
+    color: white;
+    font-family: Passion One;
+    line-height: 59px;
+    width: 190px;
+    background-color: #66CCCC;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+.seller-text-2> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
+
+.seller-text-3> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    background-color: #339999;
+    line-height: 150px;
+}
+
+.footer-text> div{
+    width: 308px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 16pt;
+    font-family: roboto slab semibold;
+    line-height: 19pt;
+    color: #003333;
+} 
+
+.footer-text-2> div{
+    width: 638px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    font-size: 14pt;
+    font-family: roboto slab;
+    line-height: 15px;
+    color: #003333;
+    text-decoration: underline; 
+}
+
+.copyright> div{
+    color: #003333;
+    font font-family: roboto slab;
+    font-size: 14pt;
+    margin-top: 125px;  
+}
+
+.footer-icons div img{
+    text-align: right;
+    margin-bottom: -80px;
+    margin-right: 10px;
+}
+
+/* ---------ABOUT PAGE---------- */
+
+/* FIRST HALF OF ABOUT */
+
+.flex-2 {
+    display: flex;
+    background-color: rgba(153, 204, 204, 0.67);
+    justify-content: center;
+    clear: both;
+}
+
+.flex-2> div {
+    background-color: rgba(255, 255, 255, 0);
+    color: #003333;
+    width: 900px;
+    text-align: center;
+    line-height: 455px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: -110px;
+}
+
+.title-text> div {
+    font-size: 48pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: left;
+    align-items: flex-start;
+    margin-top: -100px;
+    font-family: passion one;
+}
+
+.bodycopy-1 {
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.bodycopy-1> div{
+    font-size: 14pt;
+    color: #003333;
+    font-family: roboto slab;
+    line-height: 59px;
+    width: 600px;
+    text-align: left;
+}
+
+.f1-image div img {
+    margin-right: -10px;
+}
+
+
+/* SECOND HALF OF ABOUT */
+
+.flex-3 {
+    display: flex;
+    background-color: rgba(153, 204, 204, 0.35);
+    justify-content: center;
+    clear: both;
+}
+
+.flex-3> div {
+    background-color: rgba(255, 255, 255, 0);
+    color: #003333;
+    width: 900px;
+    text-align: center;
+    line-height: 455px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: -110px;
+}
+
+.title-text> div {
+    font-size: 48pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: left;
+    align-items: flex-start;
+    margin-top: -100px;
+    font-family: passion one;
+}
+
+.bodycopy-2 {
+    margin-top: -70px;
+    margin-bottom: 85px;
+}
+
+.bodycopy-2> div{
+    font-size: 14pt;
+    color: #003333;
+    font-family: roboto slab;
+    line-height: 59px;
+    width: 600px;
+    text-align: left;
+}
+
+.f1-image div img {
+    margin-right: -10px;
+}
+
+
+/* ---------PRODUCTS PAGE---------- */
+
+/* PRODUCTS */
+
+.p-title div {
+    font-family: passion one;
+    font-size: 60pt;
+    text-align: center;
+    color: #003333;
+    background-color: rgba(153, 204, 204, 0.5);
+}
+
+.flex-container-2 {
+    display: flex;
+    background-color: rgba(153, 204, 204, 0.5);
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container-2> div {
+    background-color: #FFFFFF;
+    color: #003333;
+    width: 900px;
+    text-align: center;
+    line-height: 455px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.flex-container-2> div> div {
+    width: 368px;
+    line-height: 440px;
+}
+
+.flex-container-2> div> div> img {
+    flex: 25%;
+    padding: 0px 0px 0px 0px;
+   text-align: center;
+    margin-right: -16px;
+}
+
+.product-text> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
+
+.price div{
+    font-family: roboto slab;
+    color: #003333;
+    font-size: 24pt;
+    margin-top: -280px;
+}
+
+.size div{
+    font-family: roboto slab;
+    color: #003333;
+    font-size: 18t;
+    margin-top: -390px;
+    margin-bottom: -190px;
+}
+
+.quickbuy-1 {
+    margin-left: 90px;
+    margin-right: -90px;
+    margin-top: -85px;
+    margin-bottom: 85px;
+}
+
+.quickbuy-1> div{
+    font-size: 30pt;
+    color: white;
+    font-family: Passion One;
+    line-height: 59px;
+    width: 190px;
+    background-color: #66CCCC;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+.product-text-2> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
+
+.product-text-3> div {
+    font-size: 22pt;
+    color: #003333;
+    line-height: 260px;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -300px;
+}
